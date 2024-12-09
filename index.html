@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking Atualizado</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+
+    
+
+    <div class="container">
+    <h2 class="title">Jogo SymBeee</h2>
+  
+    <form id="player-form">
+      <input type="text" id="player-name" placeholder="Nome do jogador" required>
+      <input type="number" id="player-points" placeholder="Pontos" required>
+      <button type="submit">Adicionar</button>
+    </form>
+  
+    <form id="edit-form">
+      <h3 class="title">Alterar Pontos de um Jogador</h3>
+      <input type="text" id="edit-name" placeholder="Nome do jogador" required>
+      <input type="number" id="edit-points" placeholder="Novos pontos" required>
+      <button type="button" id="edit-button">Alterar Pontos</button>
+    </form>
+    
+    <div class="rank-logo">
+        <h2 class="text-rank">Ranking</h2>
+
+    <svg width="114" height="179" viewBox="0 0 114 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 117.5L58.5 88L107 118.5V89L58.5 60.5L4 90V58.5L58.5 29L110 61.5" stroke="#EE9B11" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 132L46.5 146.909L56.7589 152.909L67.5 146.909L93 132" stroke="#EAEAEA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.5 21.5C39.5 21.5 35.9065 14.8346 32.5 11.5C29.2876 8.35548 23 5 23 5" stroke="#EAEAEA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M76 20.5C76 20.5 79.5935 13.8346 83 10.5C86.2124 7.35548 92.5 4 92.5 4" stroke="#EAEAEA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+    </div>
+    
+        
+    
+    <ul id="ranking"></ul>
+</svg>
+
+</div>
+
+  <script src="script.js"></script>
+
+  <div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+ </div>
+</body>
+</html>
